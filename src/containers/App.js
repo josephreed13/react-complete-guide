@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // JS object which gives you access to a string version of your css styles. The CSS style was adjusted to be unique
 // this is the only place where these styles can have an effect. (CSS Modules)
 import classes from './App.css';
-import Person from '../components/Persons/Person/Person';
+import Person from './Person/Person';
 
 class App extends Component {
 	state = {
